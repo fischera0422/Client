@@ -9,7 +9,6 @@ img{
 .hamburger{
     width: 40px;
     padding: .5rem;
-    left: 100%;
 }
 .hamburger hr{
     margin: .75rem 0;
@@ -80,8 +79,8 @@ header img{
     margin: 1rem;
 }
 header h1{
-    padding: 2rem;
-    font-size: 4.5rem;
+    padding: 1rem;
+    font-size: 3rem;
 }
 .creation{
     color: #b195d2;
@@ -176,11 +175,15 @@ footer{
     text-align: center;
 }
 textarea{
-    height: 5rem;
+    height: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: #0b132b;
-    margin: 1rem;
-    align-items: center;
+}
+.text{
+    background-color: #ccdcc3;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
 }
 .cow, .jellyfish, .bird, .man{
     background-color: #ccdcc3;
@@ -197,4 +200,212 @@ textarea{
     font-size: 1.5rem;
     outline: none;
     text-align: center;
+}
+.us{
+    background-color: #e9cbff;
+    margin: 2rem;
+    padding: 1rem;
+}
+.us h2{
+    color: #b195d2;
+    text-align: center;
+}
+.artist{
+    background-color: #e9cbff;
+    margin: 2rem;
+}
+.artist img{
+    max-width: 95%;
+    padding: 1rem;
+}
+.contact, .social, .hours{
+    background-color: #b195d2;
+    margin: 2rem;
+    padding: 1rem;
+}
+.contact, .social, .hours h3{
+    text-align: left;
+}
+.contact, .social, .hours p{
+    color: black;
+}
+h3{
+    color: #FFFFF0;
+}
+@media (min-width:1000px){
+    img{
+        max-width: 100%;
+    }
+    header img{
+        width: 15%;
+        justify-self: left;
+    }
+    header h1{
+        padding: 5rem;
+        font-size: 4rem;
+    }
+    header{
+        display: flex;
+    }
+    .creation{
+        color: #b195d2;
+        font-size: 1.5rem;
+        text-align: center;
+        background-color: #e9cbff;
+        padding-top: 1rem;
+        margin: 2rem;
+        display: inline-block;
+    }
+    .recent{
+        display: grid;
+        background-color: #e9cbff;
+        margin: 3rem;
+        padding-bottom: 1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+    .recent img{
+        width: 100%;
+        height: 100%;
+    }
+    .green{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .pink{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .line{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .phoenix{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .about{
+        background-color: #e9cbff;
+        margin: 2rem;
+        padding: 1rem;
+    }
+    .about h2{
+        text-align: center;
+        color: #b195d2;
+    }
+    .mon{
+        background-color: #e9cbff;
+        margin: 2rem;
+        padding: 1rem;
+        text-align: center;
+    }
+    .price{
+        padding: 1rem;
+        background-color: #ccdcc3;
+        color: black;
+        font-size: 1rem;
+        outline: none;
+        text-align: center;
+    }
+    .art{
+        display: grid;
+        background-color: #e9cbff;
+        margin: 1rem;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+    .art *{
+        justify-self: center;
+    }
+    .art img{
+        max-width: 75%;
+        display: block;
+        margin: auto;
+    }
+    .cow{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .price1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .bird{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .price2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .jellyfish{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .price3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .man{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .price4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .work{
+        background-color: #ccdcc3;
+        margin: 5rem;
+        padding: 1rem;
+        text-align: center;
+        color: #b195d2;
+    }
+    .process{
+        margin: 5rem;
+    }
+    .form{
+        margin: 5rem;
+    }
+    .text{
+        margin: 5rem;
+    }
+    footer{
+        margin: 5rem;
+        text-align: center;
+    }
+    .artist img{
+        width: 40%;
+        padding: 1rem;
+        margin: 0;
+    }
+    .artist{
+        display: flex;
+        justify-content: center;
+    }
 }
